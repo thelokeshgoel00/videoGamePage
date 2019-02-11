@@ -1,10 +1,14 @@
+body{
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
 .navbar{
     margin:0;
     position: sticky;
     top: 0;
-  
+    font-family: Bahnschrift;
     background-color: black;
-    
+
 }
 .navbar a{
     float: left;
@@ -21,12 +25,12 @@
 .navbar .dropdown{
     position: relative;
     display: inline-block;
-  
+
 
 }
 .navbar .dropdown .dropbtn{
-    color: gray;  
-    background-color: black;  
+    color: gray;
+    background-color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -35,7 +39,8 @@
     transition: 0.75s;
     border: none;
     outline: none;
-    
+    font-family: Bahnschrift;
+
     margin: 0;
 }
 .navbar .dropdown-content{
