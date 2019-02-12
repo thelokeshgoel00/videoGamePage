@@ -1,0 +1,24 @@
+.slideshow img{
+    height:40%;
+    width:60%;
+    border-radius: 16px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+	z-index:+1;
+}
+#slider-button-left{
+	position:absolute;
+	top:40%;
+	left:18%;
+	z-index:+2;
+
+}
+#slider-button-right
+{
+	position:absolute;
+	top:40%;
+	right:18%;
+	z-index:+2;
+	
+}	
