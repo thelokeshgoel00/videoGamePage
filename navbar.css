@@ -7,7 +7,7 @@ body{
     position: sticky;
     top: 0;
     font-family: Bahnschrift;
-    background-color: black;
+    background-color: rgba(0,0,0,0.95);
 
 }
 .navbar a{
@@ -70,4 +70,28 @@ body{
 }
 .navbar .dropdown:hover .dropdown-content{
     display: block;
+}
+
+#WOW{
+  max-width: 49%;
+  height: auto;
+  border-radius: 8px;
+}
+
+#COD{
+  max-width: 49%;
+  height: auto;
+  border-radius: 8px;
+}
+
+#Witcher{
+  max-width: 49%;
+  height: auto;
+  border-radius: 8px;
+}
+
+#Fortnite{
+  max-width: 49%;
+  height: auto;
+  border-radius: 8px;
 }
