@@ -7,7 +7,12 @@ body{
     position: sticky;
     top: 0;
     font-family: Bahnschrift;
+<<<<<<< HEAD
     background-color: rgba(0,0,0,0.95);
+=======
+    background-color: black;
+	z-index:+3;
+>>>>>>> 3888f1c6034d6c711a5ddf28787a455a0a05ec09
 
 }
 .navbar a{
@@ -70,6 +75,7 @@ body{
 }
 .navbar .dropdown:hover .dropdown-content{
     display: block;
+<<<<<<< HEAD
 }
 
 #WOW{
@@ -95,3 +101,6 @@ body{
   height: auto;
   border-radius: 8px;
 }
+=======
+}
+>>>>>>> 3888f1c6034d6c711a5ddf28787a455a0a05ec09
