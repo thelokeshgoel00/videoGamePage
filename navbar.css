@@ -8,6 +8,7 @@ body{
     top: 0;
     font-family: Bahnschrift;
     background-color: black;
+	z-index:+3;
 
 }
 .navbar a{
