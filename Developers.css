@@ -1,0 +1,54 @@
+.About{
+  font-family: Bahnschrift;
+  width: 70%;
+  margin-bottom: 16px;
+  margin-left: 15%;
+  margin-top: 5%;
+  border: 0;
+  text-align: center;
+}
+.Rahul{
+  width: 45%;
+  height: 340px;
+  margin:8px 8px 8px 8px;
+  border : 4px solid black;
+  border-radius: 20px;
+  text-align: center;
+  float: left;
+}
+.Lokesh{
+  width:45%;
+  height:340px;
+  margin:8px 8px 8px 8px;
+  border : 4px solid black;
+  border-radius: 20px;
+  text-align: center;
+  float: left;
+}
+.Prakhar{
+  width:45%;
+  height:340px;
+  margin:8px 8px 8px 8px;
+  border : 4px solid black;
+  border-radius: 20px;
+  text-align: center;
+  float: left;
+}
+.Rohit{
+  width:45%;
+  height:340px;
+  margin:8px 8px 8px 8px;
+  border : 4px solid black;
+  border-radius: 20px;
+  text-align: center;
+  float: left;
+}
+
+.Photo{
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius:50%;
+  border: 4px solid black;
+  z-index:1;
+}
