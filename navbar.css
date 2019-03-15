@@ -80,26 +80,43 @@ body{
 }
 
 #WOW{
-  max-width: 49%;
+  max-width: 100%;
   height: auto;
   border-radius: 8px;
 }
 
-#COD{
-  max-width: 49%;
-  height: auto;
+#Skyrim{
+  max-width: 49.5%;
+  max-height:none;
   border-radius: 8px;
 }
 
 #Witcher{
-  max-width: 49%;
+  max-width: 80%;
+  align: center;
   height: auto;
   border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 #Fortnite{
-  max-width: 49%;
-  height: auto;
+  max-width: 49.5%;
+  max-height:none;
+  border-radius: 8px;
+}
+
+#AC3{
+  max-width: 49.5%;
+  max-height:auto;
+  border-radius: 8px;
+}
+
+#BAO{
+  max-width: 49.5%;
+  max-height:auto;
   border-radius: 8px;
 }
 =======
