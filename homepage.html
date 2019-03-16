@@ -3,48 +3,70 @@
   <head>
     <link rel="stylesheet" type="text/css" href="navbar.css">
     <link rel="stylesheet" type="text/css" href="slider1.css">
-
+    <link rel="stylesheet" href="Test.css">
+    <!-- <link rel="stylesheet" href="wickedcss.min.css"> -->
+    <!-- <link rel="stylesheet" href="tuesday.min.css"> -->
+    <link rel="stylesheet" href="animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed" rel="stylesheet">
     <meta charset="utf-8">
     <title> Infinite Horizon Games</title>
   </head>
-  <body bgcolor="black">
+  <body class="animated tdShrinkInBounce">
   <div class="navbar">
     <a href="#home">Home</a>
     <a href="developers.html">About Developers</a>
     <div class="dropdown">
        <button class="dropbtn">Video Games </button>
     <div class="dropdown-content">
-      <a href="#game1">Call of Duty</a>
+      <a href="#game1">Assassin's Creed III</a>
       <a href="#game2">World of Warcraft : Battle for Azeroth</a>
-      <a href="#game3">The Witcher 3: Wild Hunt</a>
+      <a href="#game3">Fortnite: Battle Royale</a>
+      <a href="#game4">The Elder Scrolls: Skyrim</a>
+      <a href="#game5">Batman: Arkham Origins</a>
+      <a href="#game6">The Witcher 3: Wild Hunt</a>
     </div>
   </div>
 </div><br><br>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="Lorem">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
   <br>
   <br>
       <div class="slideshow">
         <img class="mySlides" src="w1.jpg">
         <img class="mySlides" src="w2.png">
         <img class="mySlides" src="w3.jpg">
-                                          <button id="slider-button-left" onclick="plusDivs(-1)">&#10094;</button>
-                                          <button id="slider-button-right" onclick="plusDivs(+1)">&#10095;</button>
-                                                                                                 </div>
+        <button id="slider-button-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button id="slider-button-right" onclick="plusDivs(+1)">&#10095;</button>
+       </div>
        <br>
        <br>
-       <div class="Pictures">
-         <div>
-           <img id="WOW" src="WoW.jpg" alt="WoW">
+       <div class="Pictures" >
+         <div class="hovereffect">
+           <img  class="animated fadeInUp delay-1s" class="img-responsive" id="WOW" src="WoW.jpg" alt="WoW">
+           <div class="overlay">
+           <h2>WOW</h2>
+              <a class="info" href="#">Click here</a>
+           </div>
          </div>
-         <div>
-           <img src="AC3.png" alt="AC3" id="AC3">  <img id="Fortnite" src="Fortnite.jpg" alt="Fortnite">
+         <div class="hovereffect">
+           <img class="animated fadeInUp delay-1s" class="img-responsive" src="AC3.png" alt="AC3" id="AC3">  <img class="animated fadeInUp delay-1s" id="Fortnite" src="Fortnite.jpg" alt="Fortnite">
+           <div class="overlay">
+           <h2>Hover effect 3</h2>
+              <a class="info" href="#">link here</a>
+           </div>
          </div>
-         <div>
+         <div class="hovereffect">
          </div>
-           <img id="Skyrim" src="Skyrim.jpg" alt="Skyrim"> <img id="BAO" src="BAO.jpg" alt="BAO">
-           <img id="Witcher" src="Witcher3.jpg" alt="Witcher3">
+           <img id="Skyrim" class="animated fadeInUp delay-1s" class="img-responsive" src="Skyrim.jpg" alt="Skyrim"> <img  class="animated fadeInUp delay-1s" id="BAO" src="BAO.jpg" alt="BAO">
+           <img id="Witcher" class="img-responsive" class="animated fadeInUp delay-1s" src="Witcher3.jpg" alt="Witcher3">
+           <div class="overlay">
+           <h2>Hover effect 3</h2>
+              <a class="info" href="#">link here</a>
+           </div>
          </div>
-                                                                                                             <script src="slider.js"></script>
+  <script src="slider.js"></script>
   </body>
-</html>
+<
