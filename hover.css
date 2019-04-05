@@ -1,0 +1,67 @@
+* {
+  box-sizing:border-box;
+
+}
+
+figure {
+  display:inline-block;
+  vertical-align:top;
+  margin: 0px;
+
+  position:relative;
+  overflow:hidden;
+}
+#img2fade
+{
+  display:inline-block;
+  vertical-align:top;
+  margin: 0.25%;
+  max-width: 49%;
+  position:relative;
+  overflow:hidden;
+
+}
+#A3 {
+  display:inline;
+  margin-left: 0;
+  max-width: 100%;
+  border-radius: 15px;
+}
+#img2
+{
+
+
+}
+
+#left
+{
+
+}
+
+figcaption
+{
+  text-align: center;
+}
+.fade figcaption {
+  font-size: 2em;
+  position:absolute;
+  top:0;
+  left:0;
+
+  width:100%;
+  height:100%;
+  color:white;
+  line-height:600px;
+  background: rgba(0,0,0,0);
+}
+
+
+.fade figcaption {
+  background: rgba(0,0,0,0.5);
+  opacity:0;
+  transition:opacity 0.5s ease;
+}
+
+.fade figcaption:hover {
+  opacity:1;
+}
