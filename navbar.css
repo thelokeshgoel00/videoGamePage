@@ -1,105 +1,134 @@
-body{
+
+body {
   font-family: 'IBM Plex Sans Condensed', sans-serif;
-  background-image:url("Wood-9.jpg");
+  background-image: url("Wood-9.jpg");
   background-attachment: fixed;
 }
 
-
-.navbar{
-    margin:0;
-    position: sticky;
-    top: 0;
-    font-family: Bahnschrift;
-	background-color: black;
-<<<<<<< HEAD
-    background-color: rgba(0,0,0,0.95);
-=======
-    background-color: black;
-	z-index:+3;
-
-
-}
-.navbar a{
-    float: left;
-    color: gray;
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 130%;
-    transition: 0.75s;
+.IntroImage {
+  display: block;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
-.navbar .dropdown{
-    position: relative;
-    display: inline-block;
+#IntroImage {
+  padding: 0;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 ;
+  border-radius: 15px
+}
 
+.centered {
+  color: white;
+  font-family: 'Monoton', cursive;
+  font-size: 450%;
+  position: absolute;
+  top: 50%;
+  transform: translate(15%, -50%);
+}
 
+.navbar {
+  margin: 0;
+  position: sticky;
+  top: 0;
+  font-family: Bahnschrift;
+  background-color: black;
+  <<<<<<< HEAD background-color: rgba(0, 0, 0, 0.95);
+  =======background-color: black;
+  z-index: +3;
 }
-.navbar .dropdown .dropbtn{
-    color: gray;
-    background-color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 130%;
-    transition: 0.75s;
-    border: none;
-    outline: none;
-    font-family: Bahnschrift;
 
-    margin: 0;
+.navbar a {
+  float: left;
+  color: gray;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 130%;
+  transition: 0.75s;
 }
-.navbar .dropdown-content{
-    display: none;
-    position: absolute;
-    background-color: black;
-    z-index: 1;
-    min-width: 265px;
-}
-.navbar .dropdown .dropdown-content a{
-    float: none;
-    color:gray;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    transition: 0.75s;
-}
-.navbar a:hover, .navbar .dropdown:hover .dropbtn{
-    padding-left: 50px;
-    color:white;
-    font-size: 140%;
 
+.navbar .dropdown {
+  position: relative;
+  display: inline-block;
 }
-.navbar .dropdown .dropdown-content a:hover{
-    color: white;
-    padding-left: 15px;
-    font-size: 140%;
+
+.navbar .dropdown .dropbtn {
+  color: gray;
+  background-color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 130%;
+  transition: 0.75s;
+  border: none;
+  outline: none;
+  font-family: Bahnschrift;
+  margin: 0;
 }
-.navbar .dropdown:hover .dropdown-content{
-    display: block;
-<<<<<<< HEAD
+
+.navbar .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  z-index: 1;
+  min-width: 265px;
 }
-.Lorem{
-  color:white;
+
+.navbar .dropdown .dropdown-content a {
+  float: none;
+  color: gray;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  transition: 0.75s;
+}
+
+.navbar a:hover, .navbar .dropdown:hover .dropbtn {
+  padding-left: 50px;
+  color: white;
+  font-size: 140%;
+}
+
+.navbar .dropdown .dropdown-content a:hover {
+  color: white;
+  padding-left: 15px;
+  font-size: 140%;
+}
+
+.navbar .dropdown:hover .dropdown-content {
+  display: block;
+  <<<<<<< HEAD
+}
+
+.Lorem {
+  color: white;
   font-size: 1.2em;
 }
 
-#WOW{
+#WOW {
   max-width: 100%;
   height: auto;
   border-radius: 15px;
 }
 
-#Skyrim{
+#Skyrim {
   max-width: 49.5%;
-  max-height:none;
+  max-height: none;
   border-radius: 15px;
 }
 
-#Witcher{
+#Witcher {
   max-width: 80%;
   align: center;
   height: auto;
@@ -110,22 +139,23 @@ body{
   width: 80%;
 }
 
-#Fortnite{
+#Fortnite {
   max-width: 49.5%;
-  max-height:none;
+  max-height: none;
   border-radius: 15px;
 }
 
-#nAC3{
+#nAC3 {
   max-width: 49.5%;
-  max-height:auto;
+  max-height: auto;
   border-radius: 15px;
 }
 
-#BAO{
+#BAO {
   max-width: 49.5%;
-  max-height:auto;
+  max-height: auto;
   border-radius: 15px;
 }
+
 =======
 }
