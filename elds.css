@@ -1,8 +1,12 @@
 html {
   background-size: cover;
   background-attachment: fixed;
-  font-family: bahnschrift;
+  font-family: Bahnschrift;
   color: aliceblue;
+  /*font-size: 1.2em;*/
+}
+.fontt{
+  font-family: Bahnschrift;
   font-size: 1.2em;
 }
 
